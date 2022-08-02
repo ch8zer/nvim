@@ -1,6 +1,7 @@
 -- add language servers here
 -- If you want more settings, add them to the dir lsp/settings
 local servers = {
+    "ansiblels",
     "bashls",
     "clangd",
     "dockerls",
@@ -8,6 +9,7 @@ local servers = {
     "html",
     "pylsp",
     "rust_analyzer",
+    "sqlls",
     "sumneko_lua",
     "vuels",
     "yamlls",
