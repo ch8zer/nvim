@@ -1,5 +1,9 @@
 -- add language servers here, files should be under the lsp/settings dir
-local servers = { "sumneko_lua", "rust_analyzer" }
+local servers = {
+    "clangd",
+    "rust_analyzer",
+    "sumneko_lua",
+}
 
 local status_ok, lsp_installer = pcall(require, "nvim-lsp-installer")
 if not status_ok then
