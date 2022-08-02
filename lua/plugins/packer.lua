@@ -63,17 +63,11 @@ return packer.startup(function(use)
     use("jose-elias-alvarez/null-ls.nvim") -- for formatters and linters
 
     -- -- Telescope
-    -- use( "nvim-telescope/telescope.nvim")
+    use( "nvim-telescope/telescope.nvim")
 
-    -- -- Treesitter
-    -- use({
-    --     "nvim-treesitter/nvim-treesitter",
-    -- })
+    -- Treesitter
+    use("nvim-treesitter/nvim-treesitter")
 
-    -- -- Git
-    -- use("lewis6991/gitsigns.nvim")
-
-    -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
     if PACKER_BOOTSTRAP then
         require("packer").sync()
