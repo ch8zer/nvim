@@ -1,2 +1,5 @@
 require 'plugins.packer'
+
+-- Load impatient first as it's recommended to be loaded ASAP
+require 'plugins.impatient'
 require 'plugins.lualine'
