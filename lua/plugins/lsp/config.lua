@@ -1,6 +1,8 @@
 -- add language servers here, files should be under the lsp/settings dir
 local servers = {
+    "bashls",
     "clangd",
+    "pylsp",
     "rust_analyzer",
     "sumneko_lua",
 }
