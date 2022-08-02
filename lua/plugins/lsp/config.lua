@@ -1,10 +1,16 @@
--- add language servers here, files should be under the lsp/settings dir
+-- add language servers here
+-- If you want more settings, add them to the dir lsp/settings
 local servers = {
     "bashls",
     "clangd",
+    "dockerls",
+    "eslint",
+    "html",
     "pylsp",
     "rust_analyzer",
     "sumneko_lua",
+    "vuels",
+    "yamlls",
 }
 
 local status_ok, lsp_installer = pcall(require, "nvim-lsp-installer")
