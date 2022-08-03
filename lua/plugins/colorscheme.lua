@@ -1,6 +1,6 @@
 -- Set color scheme
 vim.o.termguicolors = true
-local ok, _ = pcall(vim.cmd, 'colorscheme palenight')
+vim.cmd[[colorscheme tokyonight]]
 
 -- Enable transparency
 require("transparent").setup({

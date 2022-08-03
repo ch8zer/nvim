@@ -48,7 +48,7 @@ return packer.startup(function(use)
 
     -- Colorschemes
     use("xiyaowong/nvim-transparent")
-    use("kyazdani42/nvim-palenight.lua")
+    use("folke/tokyonight.nvim")
 
     -- Snippets
     use('hrsh7th/nvim-cmp')
