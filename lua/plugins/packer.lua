@@ -50,12 +50,17 @@ return packer.startup(function(use)
     use("xiyaowong/nvim-transparent")
     use("folke/tokyonight.nvim")
 
-    -- Snippets
+    -- Completion
     use('hrsh7th/nvim-cmp')
     use('hrsh7th/cmp-path')
     use('hrsh7th/cmp-buffer')
-    use("hrsh7th/cmp-vsnip")
-    use("hrsh7th/cmp-nvim-lsp")
+    use('saadparwaiz1/cmp_luasnip')
+    use('hrsh7th/cmp-nvim-lsp')
+    use('hrsh7th/cmp-nvim-lua')
+
+    -- Snippets
+    use('L3MON4D3/LuaSnip')
+    use('rafamadriz/friendly-snippets')
 
     -- LSP
     use("neovim/nvim-lspconfig") -- enable LSP
