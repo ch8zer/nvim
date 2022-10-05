@@ -59,7 +59,7 @@ return packer.startup(function(use)
     use('hrsh7th/cmp-nvim-lua')
 
     -- Snippets
-    use('L3MON4D3/LuaSnip')
+    use('hrsh7th/vim-vsnip')
     use('rafamadriz/friendly-snippets')
 
     -- LSP
