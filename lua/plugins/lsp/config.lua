@@ -1,7 +1,6 @@
 -- add language servers here
 -- If you want more settings, add them to the dir lsp/settings
 local servers = {
-    "ansiblels",
     "bashls",
     "clangd",
     "dockerls",
@@ -37,7 +36,7 @@ lsp_installer.setup({
 })
 
 -- want snippet functionalities
-local capabilities = lspcmp.update_capabilities(vim.lsp.protocol.make_client_capabilities())
+local capabilities = lspcmp.default_capabilities(vim.lsp.protocol.make_client_capabilities())
 
 for _, server in pairs(servers) do
     local opts = {
